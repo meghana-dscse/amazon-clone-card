@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Amazon+Ember&display=swap" rel="stylesheet">
+    <title>Amazon clone card</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 20px;
+        }
+    .product-title{
+    font-size: 15px;
+      font-weight: 500;
+      color: #0f1111;
+      margin-bottom: 6px;
+      line-height: 1.4;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            background-color: azure;
+            width: 400px;
+        }
+
+        .addtocart{
+            background-color: #ffd814;
+            font-size: large;
+            font-weight: bold;
+            border: 0cap;
+            padding: 10px;
+            border-radius: 250px;
+        }
+
+        .addtocart:hover{
+            border: 5mm;
+            background-color: yellow;
+        }
+        img{
+            justify-content: center;
+        }
+        .rating {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 5px;
+    }
+
+    .stars {
+      color: #ffa41c;
+      margin-right: 5px;
+    }
+
+    .votes {
+      color: #007185;
+      cursor: pointer;
+    }
+
+    .info {
+      font-size: 13px;
+      color: #565959;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .delivery {
+      font-size: 13px;
+      color: #565959;
+      margin-bottom: 3px;
+    }
+
+    .ship {
+      font-size: 13px;
+      color: #0f1111;
+      margin-bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="card">
+    <div>
+        <img src="clone.jpg" width="280px" height="400px" align>
+    </div>
+    <div class="product-title">
+      Skytech Gaming PC Desktop - Intel Core i7 12700F 2.1 GHz, NVIDIA RTX 4070 Ti, 1TB NVME SSD, 16GB DDR4 RAM 3200, 750W Gold PS…
+    </div>
+    <div class="rating">
+      <div class="stars">★★★★☆</div>
+      <div class="votes">131</div>
+    </div>
+    <div class="info">50+ bought in past month</div>
+    <div class="price">$1,979<span style="font-size:14px; vertical-align: super;">59</span></div>
+    <div class="delivery">$159.58 delivery</div>
+    <div class="ship">Ships to India</div>
+    <div>
+        <button class="addtocart">Add to cart</button>
+    </div>
+    </div>
+</body>
+</html>
